@@ -82,4 +82,4 @@ def test_prime():
 
 #test_insert()
 #test_quick()
-test_prime()
+#test_prime()

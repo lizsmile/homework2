@@ -21,10 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="work_class.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sort_prime.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="mro_c3.txt" />
+    <Content Include="picture\django_flow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="picture\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
