@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8b8e48a7-41e7-459a-be0a-d3c414a3b35c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>homework2.py</StartupFile>
+    <StartupFile>sort_prime.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="homework2.py" />
+    <Compile Include="sort_prime.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mro_c3.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
